@@ -3,7 +3,7 @@ package es.etg.prog.controller;
 import java.util.ArrayList;
 import java.util.List;
 
-import model.Alumno;
+import es.etg.prog.model.Alumno;
 
 /**
  * Controlador para gestionar alumnos.

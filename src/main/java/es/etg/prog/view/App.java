@@ -1,4 +1,4 @@
-package es.etg.prog.controller.view;
+package es.etg.prog.view;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
@@ -6,7 +6,7 @@ import java.time.format.DateTimeParseException;
 import java.util.Scanner;
 
 import es.etg.prog.controller.AlumnosController;
-import model.Alumno;
+import es.etg.prog.model.Alumno;
 
 public class App {
     public static void main(String[] args) {
@@ -14,7 +14,7 @@ public class App {
         Scanner sc = new Scanner(System.in);
         DateTimeFormatter fmt = DateTimeFormatter.ofPattern("dd/MM/yyyy");
 
-        System.out.println("=== Gestión de Alumnos (CLI) ===");
+        System.out.println("=== Gestión de Alumnos ===");
         boolean salir = false;
 
         while (!salir) {

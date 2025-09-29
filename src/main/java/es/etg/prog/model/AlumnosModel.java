@@ -1,4 +1,4 @@
-package model;
+package es.etg.prog.model;
 
 import java.util.ArrayList;
 import java.util.LinkedHashMap;

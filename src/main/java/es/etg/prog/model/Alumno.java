@@ -1,4 +1,4 @@
-package model;
+package es.etg.prog.model;
 
 import java.time.LocalDate;
 import java.time.Period;
@@ -47,7 +47,7 @@ public class Alumno {
         if (this == o) return true;
         if (!(o instanceof Alumno)) return false;
         Alumno alumno = (Alumno) o;
-        // Si el id es null, compara por nombre y apellidos
+        // Si el id es null, compara por nombre, apellidos y fechaNacimiento
         if (id == null || alumno.id == null) {
             return Objects.equals(nombre, alumno.nombre) &&
                    Objects.equals(apellidos, alumno.apellidos) &&
